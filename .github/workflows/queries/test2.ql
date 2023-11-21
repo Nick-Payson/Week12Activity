@@ -12,7 +12,7 @@ predicate isJavaScriptOrTypeScriptFile(File file) {
 }
 
 predicate isLong(File file) {
-  file.size() > 10
+  file.length > 10
 }
 
 from File file
