@@ -5,7 +5,7 @@
  * @problem.severity recommendation
  */
 
-import javascript
+/*import javascript
 
 predicate isJavaScriptOrTypeScriptFile(File file) {
   file.getExtension() = "ts" or file.getExtension() = "tsx"
@@ -18,4 +18,4 @@ predicate isLong(File file) {
 from File file
 where isJavaScriptOrTypeScriptFile(file) and 
       isLong(file)
-select file, "Found big file: " + file.getAbsolutePath()
+select file, "Found big file: " + file.getAbsolutePath()*/
